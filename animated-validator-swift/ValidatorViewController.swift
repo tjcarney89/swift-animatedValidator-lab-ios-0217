@@ -28,7 +28,7 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
         self.passwordTextField.accessibilityLabel = Constants.PASSWORDTEXTFIELD
         self.passwordConfirmTextField.accessibilityLabel = Constants.PASSWORDCONFIRMTEXTFIELD
         
-        self.submitButton.enabled = false
+        self.submitButton.isEnabled = false
     }
 
 }

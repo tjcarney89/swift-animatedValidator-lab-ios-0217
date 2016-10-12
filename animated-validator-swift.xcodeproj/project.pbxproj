@@ -16,9 +16,9 @@
 		1B136C721D217B96004DC0F3 /* ValidatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136C711D217B96004DC0F3 /* ValidatorViewController.swift */; };
 		1B136C761D217D69004DC0F3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B136C751D217D69004DC0F3 /* Constants.swift */; };
 		1BC3A3271D242909007249EE /* AnimatedValidatorSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3A3261D242909007249EE /* AnimatedValidatorSwiftTests.swift */; };
-		614EF00AD7A44F8CE6EDDAEA /* Pods_animated_validator_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86D506C47CB98E80EAEEBF92 /* Pods_animated_validator_swiftUITests.framework */; };
-		7252E457A7FC40F7F981CE72 /* Pods_animated_validator_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C122119BECAA60CD1470309 /* Pods_animated_validator_swiftTests.framework */; };
-		E113EED85F0875ED4DF0B697 /* Pods_animated_validator_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68667BCBEDC6B1DF663113C /* Pods_animated_validator_swift.framework */; };
+		2FAA59C643C7DC01AF4B2627 /* Pods_animated_validator_swiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1103F85AD6D3F966B4832E92 /* Pods_animated_validator_swiftTests.framework */; };
+		A12DB45BFC5EB65674D2757A /* Pods_animated_validator_swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420A194EB848DE4B6FDC38E3 /* Pods_animated_validator_swift.framework */; };
+		FDCAC91709217DEA99B93415 /* Pods_animated_validator_swiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 044DA7C060DA5CACCDD602EA /* Pods_animated_validator_swiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044DA7C060DA5CACCDD602EA /* Pods_animated_validator_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1103F85AD6D3F966B4832E92 /* Pods_animated_validator_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B136BFE1D216FBD004DC0F3 /* animated-validator-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "animated-validator-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B136C011D216FBD004DC0F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B136C061D216FBD004DC0F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -54,15 +56,14 @@
 		1B136C711D217B96004DC0F3 /* ValidatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidatorViewController.swift; sourceTree = "<group>"; };
 		1B136C751D217D69004DC0F3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		1BC3A3261D242909007249EE /* AnimatedValidatorSwiftTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimatedValidatorSwiftTests.swift; sourceTree = "<group>"; };
-		2BB9E8D93029FBCC28F0A37A /* Pods-animated-validator-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift.release.xcconfig"; sourceTree = "<group>"; };
-		34C3664E2AAEB1904B4C0B46 /* Pods-animated-validator-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		3D85F62ECEFEBCB151ED7869 /* Pods-animated-validator-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4C122119BECAA60CD1470309 /* Pods_animated_validator_swiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D506C47CB98E80EAEEBF92 /* Pods_animated_validator_swiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D0BDFC06A5EE781C104670E /* Pods-animated-validator-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
-		970BF69A64829DBB0AA9760A /* Pods-animated-validator-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D26BDFD20D9E704B03E90A1B /* Pods-animated-validator-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift.debug.xcconfig"; sourceTree = "<group>"; };
-		E68667BCBEDC6B1DF663113C /* Pods_animated_validator_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		420A194EB848DE4B6FDC38E3 /* Pods_animated_validator_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_animated_validator_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		508A17838217ABADEA9B6236 /* Pods-animated-validator-swiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BCF3D181DAE92E7007D0924 /* animated-validator-swiftTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "animated-validator-swiftTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		6178D503BAE2EA617B1474DE /* Pods-animated-validator-swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift.release.xcconfig"; sourceTree = "<group>"; };
+		8A71CF84B499221E3B1C721B /* Pods-animated-validator-swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift.debug.xcconfig"; sourceTree = "<group>"; };
+		CBE9E43B4DB86C9233661E20 /* Pods-animated-validator-swiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		D4EE58B032978B131A5A6658 /* Pods-animated-validator-swiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E745F8647F09DB92909FB87A /* Pods-animated-validator-swiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-animated-validator-swiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E113EED85F0875ED4DF0B697 /* Pods_animated_validator_swift.framework in Frameworks */,
+				A12DB45BFC5EB65674D2757A /* Pods_animated_validator_swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7252E457A7FC40F7F981CE72 /* Pods_animated_validator_swiftTests.framework in Frameworks */,
+				2FAA59C643C7DC01AF4B2627 /* Pods_animated_validator_swiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				614EF00AD7A44F8CE6EDDAEA /* Pods_animated_validator_swiftUITests.framework in Frameworks */,
+				FDCAC91709217DEA99B93415 /* Pods_animated_validator_swiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +101,8 @@
 				1B136C151D216FBD004DC0F3 /* animated-validator-swiftTests */,
 				1B136C201D216FBD004DC0F3 /* animated-validator-swiftUITests */,
 				1B136BFF1D216FBD004DC0F3 /* Products */,
-				29A0AC1857C4485E5378547D /* Pods */,
-				A3EFB1EA72B8BA7DEA215FFF /* Frameworks */,
+				2A6F63971D1343BBCA3E40B2 /* Pods */,
+				26794763CF16BAD18D6D4EB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +133,8 @@
 		1B136C151D216FBD004DC0F3 /* animated-validator-swiftTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B136C161D216FBD004DC0F3 /* animated_validator_swiftTests.swift */,
-				1B136C181D216FBD004DC0F3 /* Info.plist */,
 				1BC3A3261D242909007249EE /* AnimatedValidatorSwiftTests.swift */,
+				5BCF3D1B1DAE9425007D0924 /* Supporting Test Files */,
 			);
 			path = "animated-validator-swiftTests";
 			sourceTree = "<group>";
@@ -148,27 +148,37 @@
 			path = "animated-validator-swiftUITests";
 			sourceTree = "<group>";
 		};
-		29A0AC1857C4485E5378547D /* Pods */ = {
+		26794763CF16BAD18D6D4EB6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D26BDFD20D9E704B03E90A1B /* Pods-animated-validator-swift.debug.xcconfig */,
-				2BB9E8D93029FBCC28F0A37A /* Pods-animated-validator-swift.release.xcconfig */,
-				970BF69A64829DBB0AA9760A /* Pods-animated-validator-swiftTests.debug.xcconfig */,
-				8D0BDFC06A5EE781C104670E /* Pods-animated-validator-swiftTests.release.xcconfig */,
-				34C3664E2AAEB1904B4C0B46 /* Pods-animated-validator-swiftUITests.debug.xcconfig */,
-				3D85F62ECEFEBCB151ED7869 /* Pods-animated-validator-swiftUITests.release.xcconfig */,
+				420A194EB848DE4B6FDC38E3 /* Pods_animated_validator_swift.framework */,
+				1103F85AD6D3F966B4832E92 /* Pods_animated_validator_swiftTests.framework */,
+				044DA7C060DA5CACCDD602EA /* Pods_animated_validator_swiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A6F63971D1343BBCA3E40B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A71CF84B499221E3B1C721B /* Pods-animated-validator-swift.debug.xcconfig */,
+				6178D503BAE2EA617B1474DE /* Pods-animated-validator-swift.release.xcconfig */,
+				E745F8647F09DB92909FB87A /* Pods-animated-validator-swiftTests.debug.xcconfig */,
+				CBE9E43B4DB86C9233661E20 /* Pods-animated-validator-swiftTests.release.xcconfig */,
+				508A17838217ABADEA9B6236 /* Pods-animated-validator-swiftUITests.debug.xcconfig */,
+				D4EE58B032978B131A5A6658 /* Pods-animated-validator-swiftUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A3EFB1EA72B8BA7DEA215FFF /* Frameworks */ = {
+		5BCF3D1B1DAE9425007D0924 /* Supporting Test Files */ = {
 			isa = PBXGroup;
 			children = (
-				E68667BCBEDC6B1DF663113C /* Pods_animated_validator_swift.framework */,
-				4C122119BECAA60CD1470309 /* Pods_animated_validator_swiftTests.framework */,
-				86D506C47CB98E80EAEEBF92 /* Pods_animated_validator_swiftUITests.framework */,
+				1B136C161D216FBD004DC0F3 /* animated_validator_swiftTests.swift */,
+				1B136C181D216FBD004DC0F3 /* Info.plist */,
+				5BCF3D181DAE92E7007D0924 /* animated-validator-swiftTests-Bridging-Header.h */,
 			);
-			name = Frameworks;
+			name = "Supporting Test Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,12 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B136C261D216FBD004DC0F3 /* Build configuration list for PBXNativeTarget "animated-validator-swift" */;
 			buildPhases = (
-				C970BDBD5D441E72716FDE22 /* 📦 Check Pods Manifest.lock */,
+				5620A02DC63336A17FCC9686 /* [CP] Check Pods Manifest.lock */,
 				1B136BFA1D216FBD004DC0F3 /* Sources */,
 				1B136BFB1D216FBD004DC0F3 /* Frameworks */,
 				1B136BFC1D216FBD004DC0F3 /* Resources */,
-				DBEEFD50978E8DF3FEA4C2D3 /* 📦 Embed Pods Frameworks */,
-				F17CD3BBACA874860B6A5DC3 /* 📦 Copy Pods Resources */,
+				834EA35BF82A4AB0860CE87B /* [CP] Embed Pods Frameworks */,
+				2EF36D12F2AFBBBD17812D5E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,12 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B136C291D216FBD004DC0F3 /* Build configuration list for PBXNativeTarget "animated-validator-swiftTests" */;
 			buildPhases = (
-				AB4CFEC0095281FB507C0D5C /* 📦 Check Pods Manifest.lock */,
+				C3E83374E8F53A81EED45F8A /* [CP] Check Pods Manifest.lock */,
 				1B136C0E1D216FBD004DC0F3 /* Sources */,
 				1B136C0F1D216FBD004DC0F3 /* Frameworks */,
 				1B136C101D216FBD004DC0F3 /* Resources */,
-				ED456CBA8135FC278BBDC530 /* 📦 Embed Pods Frameworks */,
-				B62ED848D175F50DDC3F997C /* 📦 Copy Pods Resources */,
+				1877228DDD0F0F47EE8ADA2B /* [CP] Embed Pods Frameworks */,
+				FD8680640609E6CA4EEF3BF3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -219,11 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B136C2C1D216FBD004DC0F3 /* Build configuration list for PBXNativeTarget "animated-validator-swiftUITests" */;
 			buildPhases = (
-				F6AB27D091FA8ABAE66CC34D /* 📦 Check Pods Manifest.lock */,
+				B486FC6DEA4278A4A1178DCB /* [CP] Check Pods Manifest.lock */,
 				1B136C191D216FBD004DC0F3 /* Sources */,
 				1B136C1A1D216FBD004DC0F3 /* Frameworks */,
 				1B136C1B1D216FBD004DC0F3 /* Resources */,
-				3C0740508B180694FE61D255 /* 📦 Copy Pods Resources */,
+				A537DF71EF1A526A9E8BD25A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,13 +257,16 @@
 				TargetAttributes = {
 					1B136BFD1D216FBD004DC0F3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 					1B136C111D216FBD004DC0F3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 1B136BFD1D216FBD004DC0F3;
 					};
 					1B136C1C1D216FBD004DC0F3 = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 1B136BFD1D216FBD004DC0F3;
 					};
 				};
@@ -306,89 +319,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3C0740508B180694FE61D255 /* 📦 Copy Pods Resources */ = {
+		1877228DDD0F0F47EE8ADA2B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AB4CFEC0095281FB507C0D5C /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B62ED848D175F50DDC3F997C /* 📦 Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C970BDBD5D441E72716FDE22 /* 📦 Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		DBEEFD50978E8DF3FEA4C2D3 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ED456CBA8135FC278BBDC530 /* 📦 Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "📦 Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,14 +334,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F17CD3BBACA874860B6A5DC3 /* 📦 Copy Pods Resources */ = {
+		2EF36D12F2AFBBBD17812D5E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,19 +349,94 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6AB27D091FA8ABAE66CC34D /* 📦 Check Pods Manifest.lock */ = {
+		5620A02DC63336A17FCC9686 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "📦 Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		834EA35BF82A4AB0860CE87B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swift/Pods-animated-validator-swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A537DF71EF1A526A9E8BD25A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swiftUITests/Pods-animated-validator-swiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B486FC6DEA4278A4A1178DCB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E83374E8F53A81EED45F8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD8680640609E6CA4EEF3BF3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-animated-validator-swiftTests/Pods-animated-validator-swiftTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -578,76 +591,87 @@
 		};
 		1B136C271D216FBD004DC0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26BDFD20D9E704B03E90A1B /* Pods-animated-validator-swift.debug.xcconfig */;
+			baseConfigurationReference = 8A71CF84B499221E3B1C721B /* Pods-animated-validator-swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "animated-validator-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		1B136C281D216FBD004DC0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2BB9E8D93029FBCC28F0A37A /* Pods-animated-validator-swift.release.xcconfig */;
+			baseConfigurationReference = 6178D503BAE2EA617B1474DE /* Pods-animated-validator-swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "animated-validator-swift/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		1B136C2A1D216FBD004DC0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 970BF69A64829DBB0AA9760A /* Pods-animated-validator-swiftTests.debug.xcconfig */;
+			baseConfigurationReference = E745F8647F09DB92909FB87A /* Pods-animated-validator-swiftTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "animated-validator-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "animated-validator-swiftTests/animated-validator-swiftTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animated-validator-swift.app/animated-validator-swift";
 			};
 			name = Debug;
 		};
 		1B136C2B1D216FBD004DC0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D0BDFC06A5EE781C104670E /* Pods-animated-validator-swiftTests.release.xcconfig */;
+			baseConfigurationReference = CBE9E43B4DB86C9233661E20 /* Pods-animated-validator-swiftTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "animated-validator-swiftTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "animated-validator-swiftTests/animated-validator-swiftTests-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/animated-validator-swift.app/animated-validator-swift";
 			};
 			name = Release;
 		};
 		1B136C2D1D216FBD004DC0F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34C3664E2AAEB1904B4C0B46 /* Pods-animated-validator-swiftUITests.debug.xcconfig */;
+			baseConfigurationReference = 508A17838217ABADEA9B6236 /* Pods-animated-validator-swiftUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "animated-validator-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "animated-validator-swift";
 			};
 			name = Debug;
 		};
 		1B136C2E1D216FBD004DC0F3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D85F62ECEFEBCB151ED7869 /* Pods-animated-validator-swiftUITests.release.xcconfig */;
+			baseConfigurationReference = D4EE58B032978B131A5A6658 /* Pods-animated-validator-swiftUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "animated-validator-swiftUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "FlatironSchool.com.animated-validator-swiftUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "animated-validator-swift";
 			};
 			name = Release;
